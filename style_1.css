@@ -1,0 +1,56 @@
+h3{
+    color: #410981;    
+}
+
+form {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 15px; 
+}
+
+.form-group label {
+    display: block; /* Make label a block element */
+    margin-bottom: 5px; /* Space between label and input */
+}
+
+form input[type="Username"],
+form input[type="Password"],
+form textarea {
+    width: 100%; /* Full width for input and textarea */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    display: block; /* Block level so it doesn't inline */
+    width: 100%;
+    padding: 10px 20px;
+    margin-top: 10px; /* Space above the button */
+    background-image: linear-gradient(to right, #1ad433, #1215f3);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+form button:hover {
+    background-image: linear-gradient(to right, #f9620b, #831bcd);
+}
+.background{
+    background-repeat: no-repeat;
+
+}
+h2{
+    text-align: center;
+    color: #080a52;
+}
